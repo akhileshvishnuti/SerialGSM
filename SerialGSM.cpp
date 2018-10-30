@@ -133,7 +133,7 @@ int SerialGSM::ReceiveSMS(){
 		return 0;
 	 }else{ 
 		if(insms) {
-			insms=0;
+			insms=0; //set to 0
 			return 1;
 		}
 	}
